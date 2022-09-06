@@ -34,5 +34,11 @@ public:
 };
 
 int main() {
-
+	Point a;
+	a.SetX(2);
+	a.SetY(3);
+	a.SetZ(4);
+	a.Print();
+	system("pause");
+	system("cls");
 }
