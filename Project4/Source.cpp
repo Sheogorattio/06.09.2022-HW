@@ -17,6 +17,12 @@ public:
 		y = Y;
 		z = Z;
 	}
+
+	void Input(float new_x, float new_y, float new_z) {
+		x = new_x;
+		y = new_y;
+		z = new_z;
+	}
 };
 
 int main() {
