@@ -27,6 +27,10 @@ public:
 	int GetZ() {
 		return z;
 	}
+
+	void Print() {
+		cout << "x: " << x << "\ny: " << y << "\nz: " << z << endl;
+	}
 };
 
 int main() {
